@@ -1,0 +1,20 @@
+:root{
+
+    /* These are necessary to change color */ 
+    --bs-primary:#c78c06;
+    --bs-primary-rgb: 199, 140, 6;
+    --bs-secondary: #ffe6ac;
+    --bs-secondary-rgb: 255, 230, 172;
+    /* Hex would be first, and the rgb value */
+}
+
+
+.banner{
+    background: url('images/main-banner.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.vision{
+    background: url('images/vision.jpg') no-repeat center;
+    background-size: cover;
+}
