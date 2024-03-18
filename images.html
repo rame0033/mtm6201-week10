@@ -139,19 +139,25 @@
                 <img src="responsive_image\tablet\tablet_seated-compressed.jpg" alt="The early ears vocalist" class="cardpic">
             </picture>
       
-            <picture>
-                <source srcset="responsive_image\large_alg-compressed(1).jpg" media="(min-width:1024px)" />
+            <img srcset="responsive_image\mobile\mobile_alg-compressed(1).jpg 320w,
+            
+            responsive_image\tablet\tablet_alg-compressed(1).jpg 760w,
 
-                <source srcset="responsive_image\tablet\tablet_alg-compressed(1).jpg" media="(min-width:760px)" />
+            responsive_image\large_alg-compressed(1).jpg 1024w" 
+            
+            sizes="(min-width: 320px) 320px,
+            (min-width: 760px) 760px,
+            (min-width: 1024px) 1024px" src="responsive_image\tablet\tablet_alg-compressed(1).jpg" alt="Algonquin College"/>
 
-                <source srcset="responsive_image\mobile\mobile_alg-compressed(1).jpg" media="(min-width:320px)" />
-
-                <img src="responsive_image\tablet\tablet_alg-compressed(1).jpg" alt="Man playing guitar" class="cardpic">
-            </picture>
+               
         </div>
         
       </div>
     </main>
+
+    <div class="listen">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6qWv3ePwH8JWhgh3iROrV6?utm_source=generator" width="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
