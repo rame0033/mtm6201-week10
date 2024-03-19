@@ -25,3 +25,11 @@ img{
 iframe{
     height:40vh;
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .saguijo img{
+        height: 69%;
+    object-fit: cover;
+    }
+    
+}
