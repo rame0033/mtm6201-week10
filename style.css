@@ -5,10 +5,33 @@
     --bs-primary-rgb: 199, 140, 6;
     --bs-secondary: #ffe6ac;
     --bs-secondary-rgb: 255, 230, 172;
+    --bs-dark:rgb(7, 7, 7);
     /* Hex would be first, and the rgb value */
 }
 
+.btn-outline-primary {
+    --bs-btn-color: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-disabled-color: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+    --bs-gradient: none;
+}
 
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
 .banner{
     background: url('images/main-banner.jpg') no-repeat center;
     background-size: cover;
@@ -17,4 +40,21 @@
 .vision{
     background: url('images/vision.jpg') no-repeat center;
     background-size: cover;
+}
+
+.nav-link{
+    color: var(--bs-primary)
+}
+
+/* LoVe HAte */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:active, 
+.navbar-nav .nav-link:focus, 
+.navbar-nav .nav-link:hover{
+    background-color: var(--bs-primary);
+    color: var(--bs-dark);
+}
+
+footer a{
+    color: inherit;
 }
