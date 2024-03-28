@@ -1,6 +1,6 @@
 :root{
 
-    /* These are necessary to change color */ 
+    /* These are necessary to change color. Input the variable and change the color to override the values */ 
     --bs-primary:#c78c06;
     --bs-primary-rgb: 199, 140, 6;
     --bs-secondary: #ffe6ac;
